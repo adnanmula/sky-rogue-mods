@@ -1,0 +1,400 @@
+{
+  "shortName": "P-47",
+  "fullName": "Thunderbolt",
+  "description": "One of the main USAAF fighters of World War II",
+  "templateName": "Aeroplane_kirin",
+  "skinName": "skin_P-47 Thunderbolt",
+  "transforms": {
+    "0": {
+      "id": 0,
+      "parentID": -1,
+      "name": "P47_thunderbolt",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "1": {
+      "id": 1,
+      "parentID": 0,
+      "name": "graphics",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "5": {
+      "id": 5,
+      "parentID": 1,
+      "name": "mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": "P47_thunderbolt",
+      "materialName": "palette_team_1"
+    },
+    "6": {
+      "id": 6,
+      "parentID": 1,
+      "name": "afterburner",
+      "position": [
+        0,
+        0.300000011920929,
+        -5.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "12": {
+      "id": 12,
+      "parentID": 0,
+      "name": "primary",
+      "position": [
+        0,
+        -0.699999988079071,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "13": {
+      "id": 13,
+      "parentID": 12,
+      "name": "mount",
+      "position": [
+        1.25,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "14": {
+      "id": 14,
+      "parentID": 12,
+      "name": "mount",
+      "position": [
+        -1.25,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "15": {
+      "id": 15,
+      "parentID": 0,
+      "name": "secondary",
+      "position": [
+        0,
+        -1.20000004768372,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "16": {
+      "id": 16,
+      "parentID": 15,
+      "name": "mount",
+      "position": [
+        2,
+        1.75,
+        2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "17": {
+      "id": 17,
+      "parentID": 0,
+      "name": "weapongroup_3",
+      "position": [
+        0,
+        -1.20000004768372,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "18": {
+      "id": 18,
+      "parentID": 17,
+      "name": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "19": {
+      "id": 19,
+      "parentID": 0,
+      "name": "weapongroup_4",
+      "position": [
+        0,
+        -1.20000004768372,
+        3.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "20": {
+      "id": 20,
+      "parentID": 19,
+      "name": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "21": {
+      "id": 21,
+      "parentID": 0,
+      "name": "special",
+      "position": [
+        0,
+        1.29999995231628,
+        -5
+      ],
+      "rotation": [
+        0,
+        180.000106811523,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "22": {
+      "id": 22,
+      "parentID": 21,
+      "name": "weapon_gun",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "23": {
+      "id": 23,
+      "parentID": 0,
+      "name": "engineAudio",
+      "position": [
+        0,
+        0,
+        -7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "25": {
+      "id": 25,
+      "parentID": 1,
+      "name": "decals",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": "P47_thunderbolt_DECAL",
+      "materialName": "decals"
+    }
+  }
+}
